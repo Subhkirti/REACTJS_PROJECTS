@@ -1,0 +1,72 @@
+*{
+  font-family: 'Rubik', sans-serif;
+}
+body{
+display:flex;
+justify-content: center;
+background-color: rgb(17, 88, 129);
+}
+.main{
+  margin-top: 3rem;
+  width:23rem;
+  height:34rem;
+  background-color: white;
+  border-radius: 0.8rem;
+  box-shadow: 0px 6px 8px 9px rgb(34, 34, 34);
+
+}
+
+li{
+  font-size:1.5rem;
+  color:rgb(17, 88, 129);
+  text-transform: capitalize;
+  list-style: none;
+}
+
+#cross{
+  font-size:1.5rem;
+  margin-right: 1rem;
+  cursor:pointer
+}
+#cross:hover{
+  color:red;
+}
+#plus:hover{
+  color:green
+}
+.inp{
+ color:rgb(17, 88, 129);
+ font-size:1rem;
+ margin:2%;
+}
+input{
+  color:rgb(17, 88, 129);
+  top: 10px;
+  margin:2%;
+  padding:2%;
+  border:none;
+  text-align: center;
+  float:left;
+  width:60%;
+  font-size: 2rem;
+  background-color:transparent;
+  border-bottom: 3px solid rgb(17, 88, 129);
+  outline: none;
+}
+#plus{
+ font-size: 3rem;
+ padding:5%;
+ cursor:pointer;
+}
+.heading{
+  margin-bottom:2rem;
+  box-shadow: 0 5px 9px 3px rgba(0, 0, 0, 0.2);
+  padding: 2%;
+  text-align:center;
+  font-size:2.5rem;
+  position: relative;
+  top:1.5rem;
+  background-color: rgb(17, 88, 129);
+  color:white;
+
+}
