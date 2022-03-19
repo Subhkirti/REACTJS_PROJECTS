@@ -7,6 +7,7 @@ function App(){
   function update(){
     setdata("Title.....")
     setd("Title...")
+    React.createElement("p",null,data)
   }
   return (
     <>
